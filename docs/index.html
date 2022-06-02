@@ -38,7 +38,7 @@
                      <li>Přizpůsobené pro použití bez ponožek</li>
                      <li>Navržené pro triatlonové závody</li>
              </ul>
-             <button onclick="gtag('event', 'click', {
+             <button onclick="gtag('event', 'click-objednat', {
                 'event_category': 'order',
                 'event_label': 'landing-page'
             })" class="btn btn-main ">Objednat</button>
@@ -137,7 +137,10 @@
 
     </main>
     <footer class="main-footer">
-        <a href="#" class="btn btn-bottom">Objednat</a>
+        <button onclick="gtag('event', 'click-objednat', {
+            'event_category': 'order',
+            'event_label': 'landing-page'
+        })" class="btn btn-main ">Objednat</button>
         <a href="index.html"><img src="./svg/logo_main.svg" alt="Logo firmy Tri4you" class="logo"></a>
     </footer>
 
