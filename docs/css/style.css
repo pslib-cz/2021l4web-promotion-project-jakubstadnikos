@@ -52,7 +52,7 @@ body{
     background-color: #8BBB7D;
     font-size: 1.2em;
     display: block;
-    width: 110px;
+    width: 170px;
     text-align: center;
     margin: auto;
     margin-top: 20px;
@@ -61,6 +61,7 @@ body{
 }
 .btn:hover{
     background-color: #58794e;
+    cursor: pointer;
 }
 
 .triatlon-icon{

@@ -38,11 +38,10 @@
                      <li>Přizpůsobené pro použití bez ponožek</li>
                      <li>Navržené pro triatlonové závody</li>
              </ul>
-             <a href="#" onclick="gtag('event', 'click', {
-                'link_text' : event.target.innerText,
-                'link_url' : event.terget.href,
-                'link_id' : event.target.id
-            })" class="btn btn-main ">Objednat</a>
+             <button onclick="gtag('event', 'click', {
+                'event_category': 'order',
+                'event_label': 'landing-page'
+            })" class="btn btn-main ">Objednat</button>
              <img src="./svg/triathlon.svg" alt="Ikona triatlon" class="triatlon-icon">
         </section>
             <div class="slider-container continer">
