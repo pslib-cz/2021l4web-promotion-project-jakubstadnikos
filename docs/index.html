@@ -137,6 +137,17 @@
         <a href="#" class="btn btn-bottom">Objednat</a>
         <a href="index.html"><img src="./svg/logo_main.svg" alt="Logo firmy Tri4you" class="logo"></a>
     </footer>
-   
+   <script>
+       document.addEventListener("click", function(event){
+           console.log(event);
+           if(event.target.tagName === "A"){
+               gtag('event', 'link_click', {
+                   'link_text' : event.target.innerText,
+                   'link_url' : event.terget.href,
+                   'link_id' : event.target.id
+               })
+           }
+       })
+   </script>
 </body>
 </html>
